@@ -12,9 +12,9 @@
       <div class="info-bottom">
         <div class="item-price left">￥{{product.price}}</div>     
         <div class="item-count right">
-          <div class="subtraction">-</div>
+          <div class="subtraction" @click="subClick">-</div>
           <div>{{product.count}}</div>
-          <div class="addition">+</div>
+          <div class="addition" @click="adClick">+</div>
         </div>
       </div>
     </div>
@@ -30,6 +30,11 @@ export default {
   components: {
     CheckButton
   },
+  data() {
+    return {
+      
+    }
+  },
   props: {
     product: {
       type: Object,
@@ -42,9 +47,20 @@ export default {
    
   },
   methods: {
+
     checkClick() {
       this.product.checked = !this.product.checked
     },
+
+    subClick() {
+      this.product.count--
+      if(this.product.count == 0) {
+        this.$store.commit('delete',this.product.iid)
+      }
+    },
+    adClick() {
+      this.product.count ++
+    }
   }
 }
 </script>
@@ -114,13 +130,15 @@ export default {
    
   .subtraction {
     position: absolute;
-    bottom: 3px;
-    left: -20px;
+    bottom: 2px;
+    left: -23px;
+    
   }
 
   .addition {
-    position: absolute;
-    bottom: 1px;
-    left: 21px;
+    /* position: absolute;
+    bottom: 0;
+    left: 23px; */
+    padding-left: 15px;
   }
 </style>

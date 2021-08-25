@@ -19,6 +19,13 @@ const store = new Vuex.Store({
       payload.checked = true
       state.cartList.push(payload)
     },
+    delete(state,iid) {
+      state.cartList.forEach((item,index) => {
+        if(item.iid == iid) {
+          state.cartList.splice(index,1)
+        }
+      })
+    }
   },
   actions: {
     addCart(context,payload) {
