@@ -28,31 +28,31 @@
 
 1.首页页面
 
-![首页](src/assets/img/md/首页1.png)
+![首页1.png](https://i.loli.net/2021/09/04/q28Tvz7kYPNxWt3.png)
 
-![首页](src/assets/img/md/首页2.png)
+![首页2.png](https://i.loli.net/2021/09/04/tA7JIcWFp42Xg9o.png)
 
 2.商品详情页
 
-![首页](src/assets/img/md/详情1.png)
+![详情1.png](https://i.loli.net/2021/09/04/Tt5bh9IAvq8KoeJ.png)
 
-![首页](src/assets/img/md/详情2.png)
+![详情2.png](https://i.loli.net/2021/09/04/bvYWm8TPOVzZKJo.png)
 
 3.购物车页面
 
-![首页](src/assets/img/md/购物车.png)
+![购物车.png](https://i.loli.net/2021/09/04/FJh4py1bQPEVeaW.png)
 
 4.分类页面
 
-![首页](src/assets/img/md/分类.png)
+![分类.png](https://i.loli.net/2021/09/04/oPAv859dxb4NZ6a.png)
 
 5.个人中心页
 
-![首页](src/assets/img/md/个人中心.png)
+![个人中心.png](https://i.loli.net/2021/09/04/fwjkHMXs5im9IPa.png)
 
 ### 总结：
 
-> 能够独立的完成开发，熟练的封装组件，接口的请求，路由管理以及Vuex对于全局数据的状态管理。
+> 能够更加熟练的封装组件，接口的请求，路由管理以及Vuex对于全局数据的状态管理。
 
 
 
